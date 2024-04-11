@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Job Finder</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/estilo.css"> 
+  <link rel="stylesheet" href="../CSS/cookie.css"> 
+
+  
+</head>
+<body>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Job Finder</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="../HTML/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="../HTML/sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="../HTML/contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="../HTML/galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="../HTML/login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="../HTML/abrirVagas.html">Abrir Vaga</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div id="top-container" class="container-fluid">
+    <h1 id="main-title" class="text-center">Encontre o emprego dos seus sonhos</h1>
+    <p id="main-subtitle" class="text-center">Somos o site com mais vagas de tecnologia no mercado, direcionadas a home office</p>
+    <form id="search-form" class="form-inline" action="">
+      <div class="form-group col-md-10">
+        <input type="text" class="form-control" id="job" name="job" placeholder="Digite a vaga que está buscando">
+      </div>
+      <div class="col-md-2">
+        <button type="submit" class="btn btn-primary">procurar</button>
+      </div>
+    </form>
+  </div>
+  <main>
+    <div id="jobs-container" class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="job-list-title">Veja as nossas vagas em destaque</h2>
+          <ul id="job-list" class="list-group">
+            <li class="list-group-item new-job">
+              <img src="../img/node3.png" alt="Company">
+              <p>NodeJs Company</p>
+              <h2>Sênior Developer</h2>
+              <p>R$11.500,00</p>
+              <span class="new-job-label">Nova</span>
+              <a class="btn btn-primary" href="../HTML/vaga1.html ">Ver vaga</a>
+            </li>
+            <li class="list-group-item new-job">
+              <img src="../img/brisanett.png" alt="Company">
+              <p>Brisanet Telecomunicações</p>
+              <h2>Analista de Sistemas</h2>
+              <p>R$4.500,00</p>
+              <span class="new-job-label">Nova</span>
+              <a class="btn btn-primary" href="../HTML/vaga2.html">Ver vaga</a>
+            </li>
+            <li class="list-group-item">
+              <img src="../img/pedeai.png" alt="Company">            
+              <p>Pede.Ai</p>
+              <h2>Desenvolvedor Front-end Pleno</h2>
+              <p>R$7.900,00</p>
+              <a class="btn btn-primary" href="../HTML/vaga3.html">Ver vaga</a>
+            </li>    
+            <li class="list-group-item">
+              <img src="../img/join.png" alt="Company">             
+              <p>Join Tecnologia & Design</p>
+              <h2>Desenvolvedor Java Fullstack</h2>
+              <p>R$12.500,00</p>
+              <a class="btn btn-primary" href="../HTML/vaga4.html">Ver vaga</a>
+            </li>
+            <li class="list-group-item">
+              <img src="../img/cleizuoqx00mf02wr8ji7gx3u.jpg" alt="Company">            
+              <p>DevGrid</p>
+              <h2>Java Back-End Developer</h2>
+              <p>R$5.000,00</p>
+              <a class="btn btn-primary" href="../HTML/vaga5.html">Ver vaga</a>
+            </li>         
+            <li class="list-group-item">
+              <img src="../img/nexti.png" alt="Company">
+              <p>Nexti</p>
+              <h2>Estágio em Desenvolvimento Front-end (Híbrido)</h2>
+              <p>R$2.600,00</p>
+              <a class="btn btn-primary">Ver vaga</a>
+            </li> 
+            <li class="list-group-item">
+              <img src="../img/ps2.png" alt="Company">
+              <p>SONY</p>
+              <h2>Programador Front End</h2>
+              <p>R$5.000,00</p>
+              <a class="btn btn-primary">Ver vaga</a>
+            </li>
+            <li class="list-group-item">
+              <img src="../img/americanas.png" alt="Company">            
+              <p>AmericanasTech</p>
+              <h2>Full Stack</h2>
+              <p>R$11.000,00</p>
+              <a class="btn btn-primary">Ver vaga</a>
+            </li>    
+                
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="cookie-container">
+    <p>
+        Este site usa Cookies para garantir que você obtenha a melhor experiência
+      <a href="#">Politica de privacidade</a>.
+    </p>
+
+    <button class="cookie-btn">
+      ACEITAR
+    </button>
+  </div>
+
+  <script src="../JavaScript/cookie.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
